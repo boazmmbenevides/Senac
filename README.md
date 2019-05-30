@@ -1,4 +1,4 @@
-# Senac
+**# Senac**
 Curso Desenvolvimento de Aplicativos Móveis
 
 Usando **DART** e **FLUTTER**
@@ -41,3 +41,64 @@ void main() {
   
   // \n= quebra de linha
    }
+**Aula 2**
+```dart
+void main() {
+String nome, sobrenome ,email, senha, cpf, endereco, sexo, celular, curso, nome_social;
+
+int ano_nasc, idade, qtd_moradores;
+
+double renda_familiar, renda_pessoa;
+
+  
+nome = "Boaz Matheus";
+sobrenome = "Morais Benevides";  
+email = "boazmmbenevides@gmail.com";
+senha = "****";
+cpf = "123456789";
+endereco = "Rua Joaquim Jose de Oliveira Sobrinho";
+sexo = "masculino";
+curso = "Programador de Dispositivos Móveis";
+nome_social = "";
+celular = " (19)997710533";
+
+  
+ano_nasc = 2002;
+idade = 2019 - ano_nasc;
+qtd_moradores = 3;
+
+renda_familiar = 213000;
+renda_pessoa = renda_familiar / qtd_moradores; 
+
+  
+print("***************");
+print("Seus dados estão corretos?");
+print("***************");
+
+  
+print("Nome:$nome $sobrenome");
+if(nome_social!="")
+{  
+print("Nome Social: $nome_social");
+} 
+print("Email: $email");
+print("Sexo: $sexo");
+print("Celular: $celular");
+print("Ano de Nascimento: $ano_nasc");
+print("Idade: $idade");
+print("Cpf: $cpf");
+print("Endereço: $endereco");
+
+  
+print("***************");
+print("Informações SENAC");
+print("***************");
+
+ 
+print("Curso: $curso");
+print("Renda Familiar: $renda_familiar");
+print("Quantidade De Moradores: $qtd_moradores");
+print("Renda por pessoa: ${renda_pessoa.toStringAsFixed(2)}");
+   
+}
+ ```
