@@ -152,3 +152,25 @@ if(curso == "programador android")
 }
        
     ```
+```dart
+void main() 
+{
+  
+double nota1, nota2, media;
+  
+nota1 = 5;
+nota2 = 4;
+
+media = (nota1 + nota2) / 2;
+
+if(media >= 5)
+{
+  print("Aprovado com média $media");
+}
+else
+{
+  print("Reprovado com média $media");
+}
+ 
+}
+```
