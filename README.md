@@ -136,13 +136,19 @@ else
 ### Exemplo if
 
 ```dart
-strig curso = "programador android;
+void main() {
+  
+  String curso = "programador android";
+  
 if(curso == "programador android")
 {
-  print(Parabéns, você fez ótimas escolhas"
+  print("Parabéns, você fez ótimas escolhas");
   }
   else
   {
     print("vacilão, aposto que você faz ADM.");
     }
+    
+}
+       
     ```
