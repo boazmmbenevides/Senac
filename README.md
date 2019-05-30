@@ -108,17 +108,17 @@ print("Renda por pessoa: ${renda_pessoa.toStringAsFixed(2)}");
 }
  ```
 
-##Condição lógica IF
+### Condição lógica IF
 
-O IF serve para determinar se um bloco **deve** ou **nao** ser executado, pode-se dizer que sempre que for necessário **testar** algum valor usaremos o "if'.
+O IF serve para determinar se um bloco **deve** ou **nao** ser executado, pode-se dizer que sempre que for necessário **testar** algum valor usaremos o *if*.
 
 ### Operadores lógicos
 
-- == "Igualdade"
-- >= "maior ou igual"
-- <= "menor ou igual"
-- > "maior"
-- < "menor"
+- == *Igualdade*
+- \>= *maior ou igual*
+- <= *menor ou igual*
+- \> *maior*
+- < *menor*
 
 ### Sintaxe
 
