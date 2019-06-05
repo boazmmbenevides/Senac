@@ -239,7 +239,7 @@ else
 {
 //faz isso
 }
-else
+else if
 {
 //nenhum dos anteriores
 }
