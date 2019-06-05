@@ -180,6 +180,12 @@ else
 
 ### Exemplo Usando If (Login e Equação de 2°º grau)
 
+Foi importada a *biblioteca* **dart:math** para podermos usar fuções matemáticas como pôtencia e raiz quadrada,no exemplo abaixo foi usada a função **math.sqrt()** para calcular a raiz de delta.
+
+ - Após a importação foi dado um "apelido" para chamar a função através da sintaxe **as** (dart:math as **math**)
+ - Foram usados 2 if,o 1º para dar acesso através da palavra mágica "empty" e o 2º para fazer a equação.
+ - Cada if tem seu próprio else, daí a importancia de *identar* , organizar o código com **TABS**
+ 
 ```dart
 import 'dart:math' as math;
 void main() {
@@ -212,9 +218,6 @@ void main() {
       x2= (-b - raiz_q) / (2 * a);
       print("X1 = $x1");
       print("X2 = $x2");
-      
-      
-      
       }
   }
   	else	
