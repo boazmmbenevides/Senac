@@ -176,3 +176,50 @@ else
 }
 
 ```
+### AULA 3 - Lógica com DART
+
+### Exemplo Usando If (Login e Equação de 2°º grau)
+
+```dart
+import 'dart:math' as math;
+void main() {
+	String palavra_magica;
+  
+  palavra_magica = "empty";
+  
+  if(palavra_magica == "empty")
+  {
+  	print("Exercício 1 - Bhaskara");
+    
+    double delta, a, b , c;
+    a = 1;
+    b = -10;
+    c = 25;
+    delta = (b * b) - 4 * a * c;
+    print("DELTA = $delta");
+    
+    if(delta < 0)
+    {
+    	print("Nenhuma raiz real pq o delta é menor que zero.");
+    }
+    else
+    {
+      double raiz_q, x1, x2;
+      //Raiz Quadrada
+      raiz_q = math.sqrt(delta);
+      print("A RAIZ DE DELTA = $raiz_q");
+      x1 = (-b + raiz_q) / (2 * a);
+      x2= (-b - raiz_q) / (2 * a);
+      print("X1 = $x1");
+      print("X2 = $x2");
+      
+      
+      
+      }
+  }
+  	else	
+    {
+ 	print("Acesso negado, você não é Digno.");
+      }
+}
+```
