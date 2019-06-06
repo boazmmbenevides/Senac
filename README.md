@@ -278,3 +278,38 @@ void main() {
   
 }
 ```
+### AULA 4 - Operador Lógico
+
+**E (AND) &&**
+
+"Somente será VERDADE se todas as expressões forem VERDADE".
+
+**OU (OR) ||**
+
+"Somente será FALSO se todas as expressões forem FALSAS".
+
+**Se tiver que acertar tudo &&, se tiver que acertar 1 ||** 
+
+### Exemplo
+```dart
+void main() {
+  bool var_a, var_b;
+
+  var_a = true;
+
+  var_b = false;
+
+  print((!var_a && var_a) || (var_b || !var_b));
+
+  int numero = 10;
+
+  if (var_a == var_b) {
+    numero = 666;
+  } else {
+    numero = numero + 1;
+  }
+  print(numero);
+}
+```
+
+
