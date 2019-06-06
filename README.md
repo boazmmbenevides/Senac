@@ -282,15 +282,15 @@ void main() {
 
 **E (AND) &&**
 
-"Somente será VERDADE se todas as expressões forem VERDADE".
+*"Somente será VERDADE se todas as expressões forem VERDADE".*
 
 **OU (OR) ||**
 
-"Somente será FALSO se todas as expressões forem FALSAS".
+*"Somente será FALSO se todas as expressões forem FALSAS".*
 
 **Se tiver que acertar tudo &&, se tiver que acertar 1 ||** 
 
-### Exemplo
+### Exemplo Teste *"booleano"*
 ```dart
 void main() {
   bool var_a, var_b;
