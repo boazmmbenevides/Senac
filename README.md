@@ -311,5 +311,57 @@ void main() {
   print(numero);
 }
 ```
+### AULA 5
+//Trabalhando com FUNÇÕES
+
+```dart
+void main() {
+	print (" Minha Calculadora =) \n----------------------");
+	
+  
+  double n1 = 10;
+  double n2 = 5;
+  
+  //Essa é a chamada da função
+ 
+   calcular(n1, n2, "+");
+   calcular(n1, n2, "-");
+   calcular(n1, n2, "*");
+   calcular(n1, n2, "/");
+  
+}
+
+/*
+ * Como criar uma função:
+ * 
+ * Primeiro, colocamos o RETORNO da função (tipo)
+ * Depois, colocamos o NOME da função
+ * Depois do nome, colocamos os PARENTESES. Dentro dos parenteses, "podemos" colocar PARÂMETROS.(pode ter ou não)
+ * Por ultimo, colocamos abertura e fechamentos de CHAVES.Dentro das chaves, vai o código da função.
+ * 
+ * IMPORTANTE: Só criar a função não serve para NADA.
+ * A gente tem que CHAMAR essa função no main.
+ */
+
+	void calcular(double novoNumero1, double novoNumero2, String operacao){
+  	print ("\nQuanto é $novoNumero1 $operacao $novoNumero2?");
+    
+    double resposta;
+    
+    if(operacao == "+"){
+      resposta = novoNumero1 + novoNumero2;
+    }else if(operacao == "-"){
+      resposta = novoNumero1 = novoNumero2;
+    }else if(operacao == "/"){
+      resposta = novoNumero1 / novoNumero2;
+    }else if(operacao == "*"){
+      resposta = novoNumero1 * novoNumero2;
+    }else{
+      resposta = 0;
+    }
+     
+  	print("O resultado é: $resposta"); 
+  }
+  ```
 
 
