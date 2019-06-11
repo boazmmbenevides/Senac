@@ -379,11 +379,11 @@ void main() {
    Regra nº1:**Nunca feche a maquina virtual**
    
    1. Abrir o Andrpoid Studio
-   2.Abrir a Maquina Virtual ( emulador de android)
-   3.Apertar no botão "Start new Flutter Project" (iniciar novo projeto do flutter)
-   4.Escolher Aolicativo Flutter
-   5.Colocar o nome do projeto, descrição, e o caminho do SDK.
-   6.Nome da empresa (não mudou nada)
-   7.
+   2. Abrir a Maquina Virtual ( emulador de android)
+   3. Apertar no botão "Start new Flutter Project" (iniciar novo projeto do flutter)
+   4. Escolher Aolicativo Flutter
+   5. Colocar o nome do projeto, descrição, e o caminho do SDK.
+   6. Nome da empresa (não mudou nada)
+   
 
 
