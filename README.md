@@ -363,5 +363,27 @@ void main() {
   	print("O resultado é: $resposta"); 
   }
   ```
+  ### Aula Flutter
+  
+  **Primeiro contato**
+  
+  Entrar em flutter.dev (ou flutter.io) e procurar o local para começar a utilizar o flutter (Get Startet)
+  Seguir os passos de instalação,que constituem basicamente de:
+   -Baixar o SDK do Flutter e colocá-lo na pasta "C:\src\flutter"
+   -Baixar e instalar o Android Studio
+   -Configurar o plugin do flutter no Android Studio
+   -Rodar o commando "flutter doctor"no Prompt de Commando para certificar que esta tudo ok.
+   
+   **Criação do primeiro App**
+   
+   Regra nº1:**Nunca feche a maquina virtual**
+   
+   1. Abrir o Andrpoid Studio
+   2.Abrir a Maquina Virtual ( emulador de android)
+   3.Apertar no botão "Start new Flutter Project" (iniciar novo projeto do flutter)
+   4.Escolher Aolicativo Flutter
+   5.Colocar o nome do projeto, descrição, e o caminho do SDK.
+   6.Nome da empresa (não mudou nada)
+   7.
 
 
