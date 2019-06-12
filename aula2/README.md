@@ -21,7 +21,7 @@ void main() {
   ```dart
   void main() {
     runApp(
-      newMaterial(
+      new Material(
           color: Colors.purple,
       ), //Material
     );
