@@ -384,6 +384,7 @@ void main() {
    4. Escolher Aolicativo Flutter
    5. Colocar o nome do projeto, descrição, e o caminho do SDK.
    6. Nome da empresa (não mudou nada)
+  
    
 
 
