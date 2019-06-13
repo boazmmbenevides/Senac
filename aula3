@@ -1,0 +1,15 @@
+## Criação de Menu
+
+Primeiro adicionamos o AppBar
+
+colocamos o "titulo", centralizamos, e adicionamos umar cor.
+```dart
+appBar: AppBar(
+          title: Text("EMPTY"),
+          centerTitle: true,
+          backgroundColor: Colors.deepPurple,
+        ),
+```        
+
+
+
