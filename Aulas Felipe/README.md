@@ -31,3 +31,14 @@ class _ClasseComEstadooState extends State<ClasseComEstadoo> {
   }
 }  
 ```
+### Widgets utilizados
+
+Para o aplicativo da calculadora simples, utilizamos os seguintes widgets:
+- Container
+  -Serve para criar 
+- TextField
+- SizedBox
+- DropdownButton
+- RaisedButton
+- Column
+- Center
