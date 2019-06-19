@@ -5,3 +5,7 @@
 ## Veja o Exemplo
 
 [Modelo Básico Flutter](Aula4/modelo.dart)
+
+## Exemplo Classe Pessoa
+
+[Classe Pessoa](Aula4/pessoa.dart)
