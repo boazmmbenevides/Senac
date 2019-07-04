@@ -1,0 +1,7 @@
+CREATE TABLE estuda (
+    es_curso INTEGER  NOT NULL,
+    es_ra    INTEGER  NOT NULL,
+    PRIMARY KEY (es_curso, es_ra),
+   FOREIGN KEY (es_curso) REFERENCES curso (id_curso),
+   FOREIGN KEY (es_ra) REFERENCES aluno (ra)
+);
